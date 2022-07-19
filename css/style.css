@@ -1,0 +1,72 @@
+/* main header here */
+.container {
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    color: white;
+    margin: 20px auto;
+}
+
+#text {
+    padding: 100px 0;
+}
+
+.sub-container {
+    width: 50%;
+}
+
+
+.header {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.details {
+    margin: 40px auto;
+}
+
+.sub-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: orangered;
+    width: 150px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.sub-container img {
+    width: 130%;
+}
+
+/* main header end here */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.blog {
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.blog img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.comment span {
+    margin-left: 10px;
+}
