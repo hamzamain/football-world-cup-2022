@@ -239,6 +239,18 @@ hr {
         flex-direction: column;
     }
 
+    .side-nav {
+        background-image: none;
+        background-color: none;
+    }
+
+    .side-nav a {
+        border: 1px solid gray;
+        color: black
+    }
+
+    ;
+
     .blogs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
