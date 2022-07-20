@@ -44,7 +44,7 @@ body {
     color: white;
 }
 
-.button {
+.heading-button {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -53,6 +53,14 @@ body {
     border: 1px solid white;
     justify-content: center;
     border-radius: 5px;
+    transition: transform 1s;
+}
+
+.heading-button:hover {
+    background-image: linear-gradient(to right, rgb(209, 2, 209), rgb(107, 0, 182));
+    /* width: 160px; */
+    transform: scale(1.1);
+
 }
 
 .sub-container img {
@@ -87,7 +95,7 @@ body {
     align-items: center;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    width: 220px;
+    width: 260px;
     height: 60px;
     margin: 20px;
     padding: 5px;
@@ -127,10 +135,14 @@ body {
     padding: 5px;
 }
 
-.comment span {
-    margin-left: 10px;
+.comment {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 
-    justify-content: stretch;
 }
 
 /* common style */
@@ -141,6 +153,24 @@ body {
     /* width: 100vw; */
 }
 
+/* view button  */
+.view-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view {
+    padding: 10px;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgb(107, 0, 182), rgb(230, 48, 3));
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+/* view button  */
 /* footer here */
 
 footer {
@@ -175,3 +205,5 @@ hr {
     text-decoration: none;
     margin: 0 30px;
 }
+
+/* mediaquarys here */
