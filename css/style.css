@@ -1,18 +1,28 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* font */
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
 /* main header here */
 .container {
     display: flex;
-    background-color: black;
+    background-image: linear-gradient(to right, rgb(107, 0, 182), rgb(209, 2, 209));
     border-radius: 20px;
     width: 70%;
     justify-content: center;
     align-items: center;
     padding: 0 100px;
     color: white;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 #text {
-    padding: 100px 0;
+    /* padding: 100px 0; */
 }
 
 .sub-container {
@@ -38,17 +48,55 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: orangered;
+    background-color: transparent;
     width: 150px;
+    border: 1px solid white;
     justify-content: center;
     border-radius: 5px;
 }
 
 .sub-container img {
-    width: 130%;
+    width: 100%;
 }
 
 /* main header end here */
+.secend-section-contant {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 3fr;
+    width: 85%;
+    justify-content: center;
+    margin: 130px auto;
+}
+
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 312px;
+    width: 312px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgb(104, 4, 138), rgb(255, 38, 0));
+    ;
+}
+
+.side-nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 220px;
+    height: 60px;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+/* blogs */
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -67,6 +115,63 @@
     margin-bottom: 20px;
 }
 
+.blog-info {
+    padding: 20px;
+}
+
+.blog-info button {
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+    padding: 5px;
+}
+
 .comment span {
     margin-left: 10px;
+
+    justify-content: stretch;
+}
+
+/* common style */
+.f-padding {
+    margin-bottom: 40px;
+    /* margin-top: 40px; */
+    padding: 0%;
+    /* width: 100vw; */
+}
+
+/* footer here */
+
+footer {
+    background-color: black;
+    width: 100vw;
+    /* padding: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-heading {
+    color: white;
+    margin-top: 60px;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid rgb(57, 57, 57);
+}
+
+.privacy-anchor a {
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    font-size: 18px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
 }
