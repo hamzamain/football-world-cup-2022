@@ -246,16 +246,20 @@ hr {
 
     .side-nav a {
         border: 1px solid gray;
-        color: black
+        color: black;
+
     }
 
-    ;
+    /* nav end here */
 
+
+
+
+    /* blogs start here */
     .blogs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-
 
     /* display none here */
 
