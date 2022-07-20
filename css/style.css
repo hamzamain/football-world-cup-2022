@@ -320,3 +320,10 @@ hr {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* for dextop */
+@media screen and (min-width:992px) {
+    .view {
+        display: none;
+    }
+}
