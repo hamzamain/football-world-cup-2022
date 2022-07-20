@@ -319,11 +319,25 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* footer here */
+    .privacy-anchor {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .privacy-anchor a {
+        margin: 30px 30px;
+    }
 }
 
 /* for dextop */
 @media screen and (min-width:992px) {
     .view {
         display: none;
+    }
+
+    footer {
+        width: 100vw;
     }
 }
