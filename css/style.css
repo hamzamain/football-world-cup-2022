@@ -168,6 +168,7 @@ body {
     background-image: linear-gradient(to right, rgb(107, 0, 182), rgb(230, 48, 3));
     border-radius: 5px;
     border: 1px solid transparent;
+    /* display: none; */
 }
 
 /* view button  */
@@ -207,13 +208,14 @@ hr {
 }
 
 /* mediaquarys here */
-@media screen and (max-width:576px) {
+@media screen and (max-width:767px) {
     .container {
         text-align: center;
         flex-direction: column;
         width: 90%;
         padding: 0;
-        margin: 0 auto;
+
+        margin: 20px auto 0;
     }
 
     .sub-container {
@@ -240,6 +242,10 @@ hr {
         margin: 40px;
     }
 
+    /* .common-styles {
+        width: 50%;
+    } */
+
     .side-nav {
         background-image: none;
         background-color: none;
@@ -248,7 +254,7 @@ hr {
     .side-nav a {
         border: 1px solid gray;
         color: black;
-
+        width: 80vw;
     }
 
     /* nav end here */
@@ -258,8 +264,8 @@ hr {
 
     /* blogs start here */
     .blogs {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
     }
 
     /* footer here */
@@ -283,5 +289,34 @@ hr {
 
     .view-button {
         display: none;
+    }
+}
+
+/* tablet /tab  */
+@media screen and (min-width:768px) and (max-width:991px) {
+    .container {
+        padding: 100px;
+    }
+
+    .secend-section-contant {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-nav {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        background-image: none;
+    }
+
+    .side-nav a {
+        color: black;
+        border: 1px solid black;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
