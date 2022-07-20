@@ -207,3 +207,31 @@ hr {
 }
 
 /* mediaquarys here */
+@media screen and (max-width:576px) {
+    .container {
+        text-align: center;
+        flex-direction: column;
+        padding: 20px;
+        /* margin: ; */
+    }
+
+    .sub-container {
+        padding-top: 20px;
+    }
+
+    .header {
+        font-size: 22px;
+    }
+
+    .details {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    /* display none here */
+    .secend-section-contant,
+    footer,
+    .view-button {
+        display: none;
+    }
+}
