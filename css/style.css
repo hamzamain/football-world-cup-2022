@@ -233,8 +233,20 @@ hr {
         padding: 0;
     }
 
+    /* nav and blogs here */
+    .secend-section-contant {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
     /* display none here */
-    .secend-section-contant,
+
     footer,
     .view-button {
         display: none;
