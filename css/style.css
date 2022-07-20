@@ -213,7 +213,7 @@ hr {
         flex-direction: column;
         width: 90%;
         padding: 0;
-        margin: 20px auto;
+        margin: 0 auto;
     }
 
     .sub-container {
@@ -237,6 +237,7 @@ hr {
     .secend-section-contant {
         display: flex;
         flex-direction: column;
+        margin: 40px;
     }
 
     .side-nav {
@@ -261,9 +262,25 @@ hr {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* footer here */
+
+    footer {
+        width: 100vw;
+    }
+
+    .privacy-anchor {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .privacy-anchor a {
+        margin: 30px auto;
+    }
+
     /* display none here */
 
-    footer,
+
     .view-button {
         display: none;
     }
