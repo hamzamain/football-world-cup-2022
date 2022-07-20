@@ -8,6 +8,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.side-nav a.nav-button-style {
+    background-image: linear-gradient(to top, rgb(118, 0, 122), rgb(209, 23, 2));
+    border: 4px solid white;
+    color: white;
+    border-radius: 1 5px;
+
+}
+
 /* main header here */
 .container {
     display: flex;
