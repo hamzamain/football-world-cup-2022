@@ -16,6 +16,10 @@ body {
 
 }
 
+section {
+    width: 100vw;
+}
+
 /* main header here */
 .container {
     display: flex;

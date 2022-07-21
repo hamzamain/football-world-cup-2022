@@ -123,16 +123,28 @@ body {
     border-radius: 10px;
     background-color: white;
     border: 1px solid lightgray;
+    /* display: block; */
 }
 
-.blog img {
+article .flags {
+    display: flex;
+    justify-content: center;
+}
+
+img .flag {
+    margin: 10px;
+}
+
+
+/* .blog img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 20px;
-}
+} */
 
 .blog-info {
     padding: 20px;
+    text-align: center;
 }
 
 .blog-info button {
