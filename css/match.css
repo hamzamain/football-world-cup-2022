@@ -16,6 +16,10 @@ body {
 
 }
 
+section {
+    width: 100vw;
+}
+
 /* main header here */
 .container {
     display: flex;
@@ -123,24 +127,27 @@ body {
     border-radius: 10px;
     background-color: white;
     border: 1px solid lightgray;
-    /* display: block; */
 }
 
-article .flags {
-    display: flex;
-    justify-content: center;
+.flag-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
 }
 
-img .flag {
-    margin: 10px;
+.vs {
+    text-align: center;
 }
 
+article img {
+    /* width: 30%; */
+}
 
-/* .blog img {
+.blog img {
     width: 100%;
-    border-radius: 10px 10px 0px 0px;
-    margin-bottom: 20px;
-} */
+    /* border-radius: 10px 10px 0px 0px; */
+    /* margin-bottom: 20px; */
+}
 
 .blog-info {
     padding: 20px;
